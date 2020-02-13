@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Web"
+    tools:showIn="@layout/activity_web">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                tools:ignore="MissingConstraints">
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@color/colorAccent"
+                    android:text="IMDB"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="50sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/web"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:text="Top 10 webseries"
+                    android:textSize="40sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"/>
+
+                <Button
+                    android:id="@+id/b1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="60dp"
+                    android:text="1. Game of Thrones"
+                    android:textSize="30sp"
+                    android:textColor="@color/white"
+                    android:background="@color/black"/>
+
+                <Button
+                    android:id="@+id/b2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:text="2. Sacred Games"
+                    android:textSize="30sp"
+                    android:textColor="@color/white"
+                    android:background="@color/black"/>
+
+                <Button
+                    android:id="@+id/b3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:text="3. Mirzapur"
+                    android:textSize="30sp"
+                    android:textColor="@color/white"
+                    android:background="@color/black"/>
+
+                <Button
+                    android:id="@+id/b4"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:text="4. The Witcher"
+                    android:textSize="30sp"
+                    android:textColor="@color/white"
+                    android:background="@color/black"/>
+
+                <Button
+                    android:id="@+id/b5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:text="5. Money Heist"
+                    android:textSize="30sp"
+                    android:textColor="@color/white"
+                    android:background="@color/black"/>
+                <Button
+                    android:id="@+id/b6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:text="6. Breaking Bad"
+                    android:textSize="30sp"
+                    android:textColor="@color/white"
+                    android:background="@color/black"/>
+                <Button
+                    android:id="@+id/b7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:text="7. Chernobyl"
+                    android:textSize="30sp"
+                    android:textColor="@color/white"
+                    android:background="@color/black"/>
+                <Button
+                    android:id="@+id/b8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:text="8. Sherlock"
+                    android:textSize="30sp"
+                    android:textColor="@color/white"
+                    android:background="@color/black"/>
+                <Button
+                    android:id="@+id/b9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:text="9. Friends"
+                    android:textSize="30sp"
+                    android:textColor="@color/white"
+                    android:background="@color/black"/>
+                <Button
+                    android:id="@+id/b10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:text="10. TVF Pitchers"
+                    android:textSize="30sp"
+                    android:textColor="@color/white"
+                    android:background="@color/black"/>
+
+
+            </LinearLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

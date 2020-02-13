@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".movies"
+    tools:showIn="@layout/activity_movies">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorAccent"
+                android:text="IMDB"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="50sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/web"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:text="Top 10 Movies"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:background="@color/black"/>
+
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="60dp"
+                android:text="1. The Shawshank Redemption"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:background="@color/black"/>
+
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:text="2. Avengers : Endgame"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:background="@color/black"/>
+
+            <Button
+                android:id="@+id/b3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:text="3. Man of Steel"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:background="@color/black"/>
+
+            <Button
+                android:id="@+id/b4"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="4. Jason Bourne"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:background="@color/black"/>
+
+            <Button
+                android:id="@+id/b5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:text="5. Yeh Jawaani Hai Deewani"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:background="@color/black"/>
+            <Button
+                android:id="@+id/b6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:text="6. The Ocean's Eleven"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:background="@color/black"/>
+            <Button
+                android:id="@+id/b7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:text="7. The Fate of the Furious"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:background="@color/black" />
+            <Button
+                android:id="@+id/b8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:text="8. Spectre"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:background="@color/black"/>
+            <Button
+                android:id="@+id/b9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:text="9. Catch Me If You Can"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:background="@color/black"/>
+            <Button
+                android:id="@+id/b10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:text="10. Baby"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:background="@color/black"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

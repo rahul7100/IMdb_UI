@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".top"
+    tools:showIn="@layout/activity_top">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/black">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:text="Top Box Office ( US )"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold"
+                android:textSize="50sp"></TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="400dp"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/t1"></ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BAD BOYS FOR LIFE"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$ 148.1M"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:textColor="@color/white"></TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="400dp"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/t2"></ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1917"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$ 119.1M"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:textColor="@color/white"></TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="400dp"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/t3"></ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DOLITTLE"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$ 55.1M"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:textColor="@color/white"></TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="400dp"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/t4"></ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GRETEL AND HANSEL"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$ 6.2M"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="30sp"
+                android:textColor="@color/white"></TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="400dp"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/t5"
+                android:layout_gravity="center"></ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="JUMANJI : THE NEXT LEVEL"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$ 291.2M"
+                android:layout_gravity="center"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_marginBottom="50dp"></TextView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
